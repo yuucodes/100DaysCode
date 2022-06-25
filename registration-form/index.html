@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a3117183dd.js" crossorigin="anonymous"></script>
+    <title>Registration Form</title>
+    <style>
+        .logo{
+            left: 0;
+            background-image: url('avg.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: rgb(252, 252, 252);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        i{
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        .tit{
+            margin-top: 200px;
+            margin-left: 20px;
+        }
+        nav{
+            margin-top: 150px;
+        }
+        nav img{
+            height: 25px;
+            border-radius: 50%;
+            padding: 20px;
+            text-align: center;
+
+        }
+        .data{
+            right: 0;
+        }
+        .split {
+            height: 100%;
+            width: 50%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+        form{
+            margin-left: 50px;
+            margin-top: 50px;
+            align-items: center;
+        }
+        form label{
+            font-size: 20px;
+            padding-bottom: 100px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        form input{
+            width: 350px;
+            height: 30px;
+            border-style: none;
+            text-align: center;
+            border-bottom-style: solid;
+        }
+        button{
+            height: 30px;
+            width: 100px;
+            margin-right: 10px;
+            background-color: dimgray;
+        }
+    </style>
+</head>
+<body>
+    <div class="split logo">
+        <i class="fa-solid fa-mask"> AVG TEAM</i>
+        <div class="tit">
+            <h1>WE'RE HIRING FOR NEW AVENGERS</h1>
+            <p>APPLY NOW</p>
+        </div>   
+        <nav>
+            <a href="https://discord.com/"><img src="dc.png" alt="discord"></a>
+            <a href="https://twitter.com/"><img src="twt.png" alt="twitter"></a>
+            <a href="https://github.com/"><img src="github.png" alt="github"></a>
+        </nav>
+    </div>
+    <div class="split data">
+        <form>
+            <label for="username">USERNAME</label><br><br>
+            <input type="text" name="username" id="username"><br><br>
+            <label for="email">EMAIL</label><br><br>
+            <input type="email" name="email" id="email"><br><br>
+            <label for="password">PASSWORD</label><br><br>
+            <input type="password" name="password" id="password"><br><br>
+            <label for="repeatpassword">REPEAT PASSWORD</label><br><br>
+            <input type="password" name="repeatpassword" id="repeatpassword"><br><br><br>
+            <button type="submit">REGISTER </button>
+            <span><a href="#"> I am already a member</a></span>
+        </form>
+    </div>
+
+</body>
+</html>
